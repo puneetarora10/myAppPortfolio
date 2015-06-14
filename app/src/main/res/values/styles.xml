@@ -1,0 +1,39 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="android:Theme.Holo.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+    </style>
+
+    <!-- Common attributes for Buttons -->
+    <style name="ButtonCommonAttributes">
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:onClick">showMessage</item>
+        <item name="android:textColor">#ffffff</item>
+    </style>
+
+    <!-- Dark Blue Button -->
+    <style name="DarkBlueButton" parent="ButtonCommonAttributes">
+        <item name="android:background">#3f51b5</item>
+    </style>
+
+    <!-- Light Blue Button -->
+    <style name="LightBlueButton" parent="ButtonCommonAttributes">
+        <item name="android:background">#2196f3</item>
+    </style>
+
+    <!-- Common attributes for Acitivities-->
+    <style name="ActivityCommonAttributes">
+        <item name="android:background">#e1f5fe</item>
+    </style>
+
+    <!-- Style for all Headings -->
+    <style name="Heading">
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textColor">#2196f3</item>
+        <item name="android:textSize">25sp</item>
+    </style>
+
+</resources>

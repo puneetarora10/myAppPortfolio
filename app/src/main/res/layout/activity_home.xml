@@ -1,0 +1,68 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/AppTheme"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".HomeActivity">
+
+    <TextView
+        android:id="@+id/homeHeading"
+        style="@style/Heading"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:text="@string/homeHeading" />
+
+    <Button
+        android:id="@+id/application1Button"
+        style="@style/DarkBlueButton"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/homeHeading"
+        android:layout_marginTop="20dp"
+        android:text="@string/application1Name" />
+
+    <Button
+        android:id="@+id/application2Button"
+        style="@style/DarkBlueButton"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/application1Button"
+        android:text="@string/application2Name" />
+
+    <Button
+        android:id="@+id/application3Button"
+        style="@style/DarkBlueButton"
+        android:layout_width="300dip"
+        android:layout_height="50dip"
+        android:layout_below="@id/application2Button"
+        android:text="@string/application3Name" />
+
+    <Button
+        android:id="@+id/application4Button"
+        style="@style/DarkBlueButton"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/application3Button"
+        android:text="@string/application4Name" />
+
+    <Button
+        android:id="@+id/application5Button"
+        style="@style/DarkBlueButton"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/application4Button"
+        android:text="@string/application5Name" />
+
+    <Button
+        android:id="@+id/application6Button"
+        style="@style/LightBlueButton"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/application5Button"
+        android:text="@string/application6Name" />
+
+</RelativeLayout>

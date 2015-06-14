@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">MyAppPortfolio</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- Home Activity-->
+
+    <string name="homeHeading">My Nanodegree Apps!</string>
+    <string name="application1Name">SPOTIFY STREAMER</string>
+    <string name="application2Name">SCORES APP</string>
+    <string name="application3Name">LIBRARY APP</string>
+    <string name="application4Name">BUILD IT BIGGER</string>
+    <string name="application5Name">XYZ READER</string>
+    <string name="application6Name">CAPSTONE: MY OWN APP</string>
+
+</resources>
